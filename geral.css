@@ -3,4 +3,15 @@ body{
     background-color: honeydew;
 
 }
-
+/*Pai*/
+ul{
+    background-color: yellow;
+}
+/*Filho*/
+ul li{
+    background-color: black;
+}
+/*Neto*/
+ul li a{
+    background-color: aqua;
+}

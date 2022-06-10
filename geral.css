@@ -27,5 +27,8 @@ ul li{
 /*Neto*/
 ul li a{
     text-decoration: nome;
+    color: black;
 }
-
+ul li a:hover{
+    background-color: orangered;
+}

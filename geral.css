@@ -8,6 +8,17 @@
     text-transform: uppercase;
 }
 
+#principal{
+    width: 100%;
+    height: 500px;
+    border: 2px solid red;
+}
+
+#rodape{
+    width: 100%;
+    height: 100px;
+    border: 1px solid blueviolet;
+}
 /*Entensão de CSS Externo*/
 body{
     background-color: honeydew;

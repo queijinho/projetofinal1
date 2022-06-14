@@ -14,6 +14,9 @@
         }
     </style>
     -->
+    <script type="text/javascript" src="libraries/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="plugins/coin-slider.min.js"></script>
+    <link rel="stylesheet" href="plugins/coin-slider-styles.css" type="text/css" />
 </head>
 <body>
     <div id="topo">
@@ -36,6 +39,22 @@
     </div>    
         
     <div id="main">
+        <div id='coin-slider'>
+            <a href="https://pixabay.com/pt/vectors/caf%c3%a9-copo-branco-preto-quente-4518354/" target="_blank">
+                <img src='pictures/coffee4.png'>
+                <span>
+                    Description for img01
+                </span>
+            </a>
+            ......
+            ......
+            <a href="imgN_url">
+                <img src='imgN.jpg' >
+                <span>
+                    Description for imgN
+                </span>
+            </a>
+        </div>
 
 
 
@@ -43,12 +62,18 @@
 
 
 
-        
+
         
     </div>
 
     <div id="rodape">
         CanecaNerd &copy;
     </div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#coin-slider').coinslider({ width: 900, navigation: true, delay: 5000 });
+        });
+    </script>
 </body>
 </html>
